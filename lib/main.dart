@@ -122,7 +122,7 @@ class NewsDetailPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                description.isNotEmpty ? description : 'No description available Sorry.',
+                description.isNotEmpty ? description : 'No description available .',
                 style: const TextStyle(fontSize: 16),
               ),
             ),
